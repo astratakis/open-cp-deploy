@@ -2,7 +2,7 @@
 
 {
     generate_manifest(components):[
-        components.generate(),
+        component.generate(),
         for component in components
     ]
 }

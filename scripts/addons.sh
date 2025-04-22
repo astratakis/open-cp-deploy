@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 echo 'Will enable addons for KLMS deployment'
 
 minikube addons enable csi-hostpath-driver

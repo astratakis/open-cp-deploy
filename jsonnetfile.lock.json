@@ -8,7 +8,8 @@
           "subdir": "ksonnet-util"
         }
       },
-      "version": "master"
+      "version": "42da78cf7f2735c0cf57dee8f80cc52e9e7e57d8",
+      "sum": "0y3AFX9LQSpfWTxWKSwoLgbt0Wc9nnCwhMH2szKzHv0="
     },
     {
       "source": {
@@ -17,7 +18,8 @@
           "subdir": "doc-util"
         }
       },
-      "version": "master"
+      "version": "6ac6c69685b8c29c54515448eaca583da2d88150",
+      "sum": "BrAL/k23jq+xy9oA7TWIhUx07dsA/QLm3g7ktCwe//U="
     },
     {
       "source": {
@@ -26,8 +28,9 @@
           "subdir": "1.32"
         }
       },
-      "version": "main"
+      "version": "84aed0f9591ba86a3035e7ebe3557cb012039890",
+      "sum": "7Qa8FZZgXBMYNzHw31sVGtYiXqabyMxeJRWVK1MWbwA="
     }
   ],
-  "legacyImports": true
+  "legacyImports": false
 }

@@ -1,0 +1,26 @@
+{
+    "apiVersion": "tanka.dev/v1alpha1",
+    "kind": "Environment",
+    "metadata": {
+      "name": "environments/minikube",
+      "namespace": "environmnets/minikube/main.jsonnet"
+    },
+    "spec": {
+      "contextNames": [
+        "minikube"
+      ],
+      "namespace": "open-cp",
+      "resourceDefaults": {
+        "annotations": {
+          "opencp/author": "dpetrou@tuc.gr"
+        },
+        "labels": {
+          "app.kubernetes.io/managed-by": "tanka",
+          "app.kubernetes.io/part-of": "open-cp",
+          "opencp.deployment": "main"
+        }
+      },
+      "expectVersions": {},
+      "injectLabels": true
+    }
+}
